@@ -49,7 +49,7 @@ st.write("""
 st.line_chart(ticker_df.Volume)
 
 
-#Expander to add Notes
+#Expander to add Notes/Explanations
 with st.expander("Readme"):
     st.write("""
         - The above chart shows the Tesla stock prices
